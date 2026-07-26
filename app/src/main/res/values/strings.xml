@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hook日志查看器</string>
+    <string name="clear_logs">清空日志</string>
+    <string name="pause_resume">暂停/继续</string>
+    <string name="copy_content">复制内容</string>
+    <string name="copy_json">复制完整JSON</string>
+    <string name="float_start">开始监听</string>
+    <string name="float_stop">停止监听</string>
+    <string name="notification_title">Hook日志监听中</string>
+    <string name="notification_content">点击打开日志界面</string>
+</resources>
