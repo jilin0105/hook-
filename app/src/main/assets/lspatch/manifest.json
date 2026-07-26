@@ -1,0 +1,6 @@
+{
+  "packageName": "com.kaiyu.guangying",
+  "entryClass": "com.hook.log.HookEntry",
+  "entryMethod": "handleLoadPackage",
+  "version": 1
+}
