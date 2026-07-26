@@ -1,3 +1,5 @@
+cd ~/LSPatchModule
+cat > .github/workflows/build.yml << 'EOF'
 name: Build LSPatch Module
 
 on:
@@ -34,7 +36,6 @@ jobs:
 
       - name: Generate Gradle Wrapper
         run: |
-          # 使用系统自带的 gradle 生成 wrapper (不依赖仓库里的文件)
           gradle wrapper --gradle-version 8.5 --distribution-type bin
           chmod +x ./gradlew
 
@@ -47,3 +48,8 @@ jobs:
           name: HookLogModule-release
           path: app/build/outputs/apk/release/app-release.apk
           retention-days: 7
+EOF
+
+git add .github/workflows/build.yml
+git commit -m "fix: auto-generate gradle wrapper in CI"
+git push
