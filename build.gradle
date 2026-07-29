@@ -1,6 +1,6 @@
 plugins {
     id 'com.android.application' version '8.1.0' // Specify AGP version here
-    id 'org.jetbrains.kotlin.android' version '1.8.0' // Specify Kotlin plugin version here
+    id 'org.jetbrains.kotlin.android' version '1.9.0' // Specify Kotlin plugin version here
 }
 
 allprojects {
