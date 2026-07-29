@@ -30,6 +30,6 @@ android {
 }
 
 dependencies {
-    compileOnly 'de.robv.android.xposed:api:82'
+    // compileOnly 'de.robv.android.xposed:api:82'
     // 如果不用 Kotlin 可以把 .kt 改成 .java
 }
