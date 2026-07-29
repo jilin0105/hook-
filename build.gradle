@@ -9,14 +9,17 @@ buildscript {
     }
 }
 
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android' version '1.8.0'
+}
+
 allprojects {
     repositories {
         google()
         mavenCentral()
     }
 }
-
-apply plugin: 'com.android.application'
 
 android {
     compileSdk 34
