@@ -1,17 +1,6 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0" // Assuming Kotlin, based on .kt files
-    }
-}
-
 plugins {
-    id 'com.android.application'
-    id 'org.jetbrains.kotlin.android' version '1.8.0'
+    id 'com.android.application' version '8.1.0' // Specify AGP version here
+    id 'org.jetbrains.kotlin.android' version '1.8.0' // Specify Kotlin plugin version here
 }
 
 allprojects {
