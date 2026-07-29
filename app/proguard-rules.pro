@@ -1,5 +1,0 @@
--keep class com.hook.log.HookEntry { *; }
--keep class com.hook.log.LogManager { *; }
--keep class com.hook.log.LogViewerActivity { *; }
--keep class com.hook.log.FloatService { *; }
--keepclassmembers class * { @android.webkit.JavascriptInterface <methods>; }
