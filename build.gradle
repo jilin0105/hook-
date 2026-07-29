@@ -11,6 +11,7 @@ allprojects {
 }
 
 android {
+    namespace "com.reversing.nativecryptohook"
     compileSdk 34
     defaultConfig {
         applicationId "com.reversing.nativecryptohook"
